@@ -3,7 +3,7 @@
       <h1>Pitanje broj 2.</h1>
       <p>Što misliš, koliko je francuska imala generala kod Waterloo-a? : {{ count }}</p>
       <ChildComponent @increment="incrementCount" />
-      <p>{{ happyMessage }}</p>
+      <p>{{ happyMessage}} </p>
       <button @click="checkHappy">Happy</button>
     </div>
   </template>
@@ -17,6 +17,7 @@
     data() {
       return {
         count: 0,
+        happyMessage : "NE",
       };
     },
     methods: {

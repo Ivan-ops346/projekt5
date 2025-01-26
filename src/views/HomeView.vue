@@ -45,9 +45,6 @@
     data,
     methods,
     computed,
-    mounted() {
-      console.log("Generale, sada cemo vidjet jesi li spreman za pravi okrsaj.");
-    },
     name : "HomeView",
     components: {
         ParentComponent,
